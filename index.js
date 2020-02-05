@@ -7,10 +7,10 @@ let beatles = [
 ];
 
 let beatlesInstruments = [
-  "Guitar",
-  "Piano",
-  "Drums",
-  "Bass"
+  "guitar",
+  "piano",
+  "drums",
+  "bass"
 ];
 
 var theBeatlesPlay = function(arr1, arr2) {
