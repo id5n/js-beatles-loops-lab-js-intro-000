@@ -16,9 +16,9 @@ let beatlesInstruments = [
 var theBeatlesPlay = function(arr1, arr2) {
   let finalArr = [];
   for (let i = 0; i < beatles.length; i++) {
-    let beatles = `${beatles[i]} plays ${beatlesInstruments[i]}.`;
+    let beatles = "`${beatles[i]} plays ${beatlesInstruments[i]}.`";
     finalArr.append(beatles);
-    console.log(`${beatles[i]} plays ${beatlesInstruments[i]}.`);
+    // console.log(`${beatles[i]} plays ${beatlesInstruments[i]}.`);
   }
   return finalArr;
 };
