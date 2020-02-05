@@ -21,4 +21,5 @@ var theBeatlesPlay = function(arr1, arr2) {
     )
     console.log(`${beatles[i]} plays ${beatlesInstruments[i]}.`)
   }
+  return finallArr;
 };
